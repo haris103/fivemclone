@@ -1,0 +1,181 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <div class="w-full flex">
+      <div class="lg:w-9/12 md:w-8/12 flex justify-start items-center">
+        <p class="font-lato font-bold text-white ml-2">Incidents</p>
+      </div>
+      <div class="lg:w-3/12 md:4/12">
+        <div class="mr-3">
+          <div class="relative">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-3 h-3 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="search"
+              id="default__search"
+              class="block h-2 w-full p-4 ps-10 text-white text-sm border rounded-2xl bg-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-900 focus:outline-none"
+              placeholder="Search Incident"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-grid class="p-0">
+  <ion-row class="h-svh">
+    <ion-col sizeLg="4" sizeMd="4" class="bg-gray-900">
+      <ion-grid class="px-1">
+        <ion-row>
+          <ion-col class="p-0">
+            <div class="w-full bg-gray-800 pl-2 py-2 rounded-sm">
+              <ion-text class="font-lato text-slate-50 font-bold"
+                >Warrents</ion-text
+              >
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <div class="custom-scrollbar overflow-auto lg:h-[80vh] md:h-[89vh] ">
+        <ion-grid *ngFor="let item of [0,0,0,0,0,0,0,0,0,0,0]">
+          <ion-row class="bg-gray-800 rounded-s rounded-e px-1">
+            <ion-col sizeLg="3" sizeMd="12" class="flex p-1">
+              <img
+                src="../../assets/images/cat.jpeg"
+                class="object-cover rounded-sm"
+                alt=""
+              />
+            </ion-col>
+            <ion-col sizeLg="9" class="pl-2">
+              <div class="flex flex-col">
+                <ion-text class="font-lato text-slate-50 font-bold"
+                  >Eugene Zuckerberg</ion-text
+                >
+                <ion-text class="font-lato text-slate-50"
+                  >Incident 8313 - Arnold Carl</ion-text
+                >
+                <ion-text class="font-lato text-slate-50">09/12/2024</ion-text>
+              </div>
+              <div class="mt-4">
+                <ion-text
+                  class="font-lato text-slate-50 text-sm font-bold bg-slate-500 px-1 py-1 rounded-sm"
+                  >Expires in 9 hours</ion-text
+                >
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-col>
+
+    <ion-col sizeLg="4" sizeMd="4" class="bg-gray-900">
+      <ion-grid class="px-1">
+        <ion-row>
+          <ion-col class="p-0">
+            <div class="w-full bg-gray-800 pl-2 py-2 rounded-sm">
+              <ion-text class="font-lato text-slate-50 font-bold"
+                >Announcements</ion-text
+              >
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <div class="custom-scrollbar overflow-auto lg:h-[80vh] md:h-[89vh]">
+        <ion-grid *ngFor="let item of [0,0,0,0,0]">
+          <ion-row class="bg-gray-800 rounded-s rounded-e px-1">
+            <ion-col sizeLg="3" sizeMd="12" class="flex p-1">
+              <img
+                src="../../assets/images/cat.jpeg"
+                class="object-cover rounded-sm"
+                alt=""
+              />
+            </ion-col>
+            <ion-col sizeLg="9" class="pl-2">
+              <div class="flex flex-col">
+                <ion-text class="font-lato text-slate-50 font-bold"
+                  >Eugene Zuckerberg</ion-text
+                >
+                <ion-text class="font-lato text-slate-50"
+                  >Incident 8313 - Arnold Carl</ion-text
+                >
+                <ion-text class="font-lato text-slate-50">09/12/2024</ion-text>
+              </div>
+              <div class="mt-4">
+                <ion-text
+                  class="font-lato text-slate-50 text-sm font-bold bg-slate-500 px-1 py-1 rounded-sm"
+                  >Expires in 9 hours</ion-text
+                >
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+
+    </ion-col>
+
+    <ion-col sizeLg="4" sizeMd="4" class="bg-gray-900">
+      <ion-grid class="px-1">
+        <ion-row>
+          <ion-col class="p-0">
+            <div class="w-full bg-gray-800 pl-2 py-2 rounded-sm">
+              <ion-text class="font-lato text-slate-50 font-bold"
+                >Bolo</ion-text
+              >
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <div class="custom-scrollbar overflow-auto lg:h-[80vh] md:h-[89vh]">
+        <ion-grid *ngFor="let item of [0,0,0,0,0]">
+          <ion-row class="bg-gray-800 rounded-s rounded-e px-1">
+            <ion-col sizeLg="3" sizeMd="12" class="flex p-1">
+              <img
+                src="../../assets/images/cat.jpeg"
+                class="object-cover rounded-sm"
+                alt=""
+              />
+            </ion-col>
+            <ion-col sizeLg="9" class="pl-2">
+              <div class="flex flex-col">
+                <ion-text class="font-lato text-slate-50 font-bold"
+                  >Eugene Zuckerberg</ion-text
+                >
+                <ion-text class="font-lato text-slate-50"
+                  >Incident 8313 - Arnold Carl</ion-text
+                >
+                <ion-text class="font-lato text-slate-50">09/12/2024</ion-text>
+              </div>
+              <div class="mt-4">
+                <ion-text
+                  class="font-lato text-slate-50 text-sm font-bold bg-slate-500 px-1 py-1 rounded-sm"
+                  >Expires in 9 hours</ion-text
+                >
+              </div>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </ion-col>
+  </ion-row>
+</ion-grid>

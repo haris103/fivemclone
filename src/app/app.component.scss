@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../assets/fonts/Lato/Lato-Regular.ttf');
+}
+
+::ng-deep .font-lato {
+  font-family: 'Lato' !important;
+}
+::ng-deep #default__search::placeholder {
+  font-family: 'Lato' !important;
+}
+::ng-deep ion-toolbar.header{
+  --background: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+}
+
+::ng-deep .custom_blue{
+  background: #0978f8;
+}
+::ng-deep .custom_grey{
+  background: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
+}
+
+
+//Custom Scroll
+/* Add this to your global styles or a component-specific stylesheet */
+::ng-deep .custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Adjust width as needed */
+}
+
+::ng-deep .custom-scrollbar::-webkit-scrollbar-track {
+  background: #2d2d2d; /* Darker background for the track */
+}
+
+::ng-deep .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Light grey color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+::ng-deep .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker grey color when hovering over the scrollbar thumb */
+}

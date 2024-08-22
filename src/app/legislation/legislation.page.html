@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <div class="w-full flex">
+      <div class="lg:w-9/12 md:w-8/12 flex justify-start items-center">
+        <p class="font-lato font-bold text-white ml-2">Legislations</p>
+      </div>
+      <div class="lg:w-3/12 md:4/12">
+        <div class="mr-3">
+          <div class="relative">
+            <div
+              class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+            >
+              <svg
+                class="w-3 h-3 text-gray-500 dark:text-gray-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                />
+              </svg>
+            </div>
+            <input
+              type="search"
+              id="default__search"
+              class="block h-2 w-full p-4 ps-10 text-white text-sm border rounded-2xl bg-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-900 focus:outline-none"
+              placeholder="Search Legislation"
+              required
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-grid class="p-0 w-full">
+  <ion-row class="h-svh">
+    <ion-col  class="bg-gray-900">
+      <ion-grid class="px-1">
+        <ion-row>
+          <ion-col class="p-0" >
+            <div class="w-full bg-gray-800 pl-2 py-2 rounded-sm">
+              <ion-text class="font-lato text-slate-50 font-bold"
+                >Legislations</ion-text
+              >
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <div class="custom-scrollbar overflow-auto lg:h-[80vh] md:h-[89vh] ">
+        <div  class="bg-gray-800 h-24 flex mt-2" *ngFor="let item of [0,0,0,0,0,0,0,0,0]">
+          <div  class=" w-1/6 h-24">
+            <img src="../../assets//images/game.jpeg" class="w-full object-fill h-24 p-1 rounded-md" alt="">
+          </div>
+          <div  class="bg-grey-800 w-5/6 flex flex-col justify-start items-center py-2 ml-2">
+            <ion-text class="font-lato text-sm text-slate-100 w-full font-bold">First Time Felony Diversion Program</ion-text>
+            <ion-text class="font-lato text-sm text-slate-50 w-full mt-1">First Time Felony Diversion Program. This Legislationis designed for</ion-text>
+            <div class="flex justify-start items-center w-full mt-3">
+              <ion-text class="font-lato text-sm text-slate-50 custom_blue p-1 rounded-sm">ID:3345</ion-text>
+              <ion-text class="font-lato text-sm text-white bg-gray-600 p-1 rounded-sm ml-1">10 says ago</ion-text>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </ion-col>
+
+
+  </ion-row>
+</ion-grid>
