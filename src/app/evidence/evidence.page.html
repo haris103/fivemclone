@@ -85,7 +85,7 @@
 
         <div class="custom-scrollbar overflow-auto lg:h-[80vh] md:h-[89vh]">
           <ion-grid *ngFor="let item of [0,0,0,0,0]">
-            <ion-row class="bg-gray-800 rounded-s rounded-e px-1">
+            <ion-row class="bg-gray-800 rounded-s rounded-e px-1" [routerLink]="['/profiles', { data: 'evidence' }]">
               <ion-col sizeLg="3" sizeMd="12" class="flex p-1">
                 <img
                   src="../../assets/images/game.jpeg"
