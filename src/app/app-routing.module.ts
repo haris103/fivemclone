@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'fto-report',
     loadChildren: () => import('./fto-report/fto-report.module').then( m => m.FtoReportPageModule)
   },
+  {
+    path: 'evidence',
+    loadChildren: () => import('./evidence/evidence.module').then( m => m.EvidencePageModule)
+  },
 
 ];
 
