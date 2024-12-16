@@ -20,6 +20,13 @@
   background: rgb(17 24 39 / var(--tw-bg-opacity)) !important;
 }
 
+::ng-deep .custom_bg{
+  background: #8c8c8b !important;
+}
+::ng-deep .custom_text{
+  color: #0978f8 !important;
+}
+
 ::ng-deep .custom_blue_shine {
   position: relative;
   height: 100%;

@@ -1,4 +1,4 @@
-<ion-app>
+<!-- <ion-app>
   <ion-content [fullscreen]="true">
     <ion-grid class="p-0">
       <ion-row>
@@ -15,5 +15,78 @@
       </ion-row>
     </ion-grid>
   </ion-content>
-</ion-app>
+</ion-app> -->
 
+<ion-router-outlet></ion-router-outlet>
+
+
+
+    <!-- <ion-grid class="m-0 p-0 h-svh">
+      <ion-row class="h-svh">
+        <ion-col size="6" class="bg-red-300 flex justify-center items-center">
+          <img src="../assets/images/cat.jpeg" alt="">
+        </ion-col>
+        <ion-col size="6" class="bg-red-500">
+          <div class="col-span-12 mb-4">
+            <label for="email" class="block text-sm font-medium text-gray-700"
+              >Email <span class="text-red-400">*</span></label
+            >
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+              placeholder="Enter email"
+            />
+          </div>
+
+          <div class="col-span-12 mb-4">
+            <label for="password" class="block text-sm font-medium text-gray-700"
+              >Password <span class="text-red-400">*</span></label
+            >
+            <div class="flex">
+              <input
+                [type]="!showPassword? 'password': 'text'"
+                id="password"
+                name="password"
+                type="password"
+                autocomplete="current-password"
+                required
+                class="mt-1 block w-full rounded-md border border-gray-300 py-2 px-3 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                placeholder="Enter Password"
+              />
+              <div class="absolute right-8 mt-4">
+                <a class="type-toggle" (click)="toggleShow()">
+                  <ion-icon
+                    class="show-option"
+                    size="small"
+                    [hidden]="showPassword"
+                    name="eye-off-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="hide-option"
+                    size="small"
+                    [hidden]="!showPassword"
+                    name="eye-outline"
+                  ></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="text-3D8AA4 font-Lato text-end font-semibold">
+            <a href="">Forgot Password?</a>
+          </div>
+          <ion-button
+            expand="block"
+            class="font-Lato mt-5 text-lg text-white"
+            type="submit"
+            [routerLink]="['/routePath']" routerLinkActive="router-link-active"
+            >Login</ion-button
+          >
+        </ion-col>
+      </ion-row>
+    </ion-grid> -->

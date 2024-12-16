@@ -4,10 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { DashboardPageRoutingModule } from './dashboard-routing.module';
+import { MainPageRoutingModule } from './main-routing.module';
 
-import { DashboardPage } from './dashboard.page';
-import { NgxEchartsModule } from 'ngx-echarts';
+import { MainPage } from './main.page';
 import { SharedmoduleModule } from '../components/shared.module';
 
 @NgModule({
@@ -15,10 +14,9 @@ import { SharedmoduleModule } from '../components/shared.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    DashboardPageRoutingModule,
-    NgxEchartsModule,
+    MainPageRoutingModule,
     SharedmoduleModule
   ],
-  declarations: [DashboardPage]
+  declarations: [MainPage]
 })
-export class DashboardPageModule {}
+export class MainPageModule {}
